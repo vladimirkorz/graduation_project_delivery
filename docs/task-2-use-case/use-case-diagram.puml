@@ -1,0 +1,26 @@
+@startuml
+left to right direction
+
+actor "Клиент" as Client
+actor "Администратор" as Admin
+
+rectangle "Система онлайн-доставки пиццы" {
+  usecase "Просмотр меню" as UC1
+  usecase "Добавление товара\nв корзину" as UC2
+  usecase "Редактирование корзины" as UC3
+  usecase "Оформление заказа" as UC4
+  usecase "Просмотр заказов" as UC5
+  usecase "Изменение статуса\nзаказа" as UC6
+  usecase "Управление меню" as UC7
+}
+
+Client --> UC1
+Client --> UC2
+Client --> UC3
+Client --> UC4
+
+Admin --> UC5
+Admin --> UC6
+Admin --> UC7
+
+@enduml
