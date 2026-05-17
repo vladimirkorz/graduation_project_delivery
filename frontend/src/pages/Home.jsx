@@ -25,7 +25,6 @@ function Home() {
           </div>
 
           <div className="hero-card">
-            <div className="hero-pizza">🍕</div>
             <h2>PizzaTime</h2>
             <p>Горячая. Быстрая. Вкусная.</p>
           </div>
@@ -34,19 +33,16 @@ function Home() {
 
       <section className="features container">
         <div className="feature">
-          <span>🚚</span>
           <h3>Быстрая доставка</h3>
           <p>Привезём заказ максимально быстро.</p>
         </div>
 
         <div className="feature">
-          <span>🔥</span>
           <h3>Горячая пицца</h3>
           <p>Пицца приезжает свежей и ароматной.</p>
         </div>
 
         <div className="feature">
-          <span>💳</span>
           <h3>Удобный заказ</h3>
           <p>Оформление заказа прямо на сайте.</p>
         </div>

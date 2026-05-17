@@ -5,7 +5,6 @@ export const pizzas = [
     description: 'Томатный соус, моцарелла, базилик и нежное тесто.',
     price: 550,
     category: 'cheese',
-    emoji: '🍕',
   },
   {
     id: 2,
@@ -13,7 +12,6 @@ export const pizzas = [
     description: 'Пикантная пепперони, сыр моцарелла и фирменный соус.',
     price: 690,
     category: 'meat',
-    emoji: '🌶️',
   },
   {
     id: 3,
@@ -21,7 +19,7 @@ export const pizzas = [
     description: 'Моцарелла, дорблю, пармезан и сливочный сыр.',
     price: 720,
     category: 'cheese',
-    emoji: '🧀',
+    
   },
   {
     id: 4,
@@ -29,7 +27,6 @@ export const pizzas = [
     description: 'Ветчина, бекон, курица, пепперони и сыр.',
     price: 790,
     category: 'meat',
-    emoji: '🥓',
   },
   {
     id: 5,
@@ -37,7 +34,6 @@ export const pizzas = [
     description: 'Курица, ананасы, сыр моцарелла и томатный соус.',
     price: 680,
     category: 'special',
-    emoji: '🍍',
   },
   {
     id: 6,
@@ -45,6 +41,5 @@ export const pizzas = [
     description: 'Острый соус, халапеньо, пепперони и много сыра.',
     price: 750,
     category: 'spicy',
-    emoji: '🔥',
   },
 ];
